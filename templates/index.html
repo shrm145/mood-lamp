@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+        <title>Mood Lamp Control</title>
+        <meta name= "viewport" content="width=device-width, initial-scale=1">
+        <link rel= "stylesheet" href = "https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+        .w3-button {width:180px;}
+        p {font-size: 18px;}
+        a {font-color: 'white';}
+        </style>
+        <body>
+        <div class = "w3-card-4">
+        <header class = "w3-container w3-blue-grey">
+            <h1> Date & Time in Seattle</h1>
+            </header>
+            <div class = "w3-container">
+            <p> The current date is: {{ date }} </p>
+            <p> The current time is: {{ time }} </p>
+            <p> <a href = "/weather" class = "w3-button w3-block w3-green">Get weather</a></p>
+            <div class = "card">
+            <img src = {{ img_icon }} alt = "Weather Icon">
+            <p class = "title">{{ temperature }}&#176;C</p>
+            <p>{{  desc  }}</p>
+            </div>
+            </div>
+            
+        </div>
+        <div class = "w3-card-4">
+        <header class = "w3-container w3-teal">
+            <h2> Controls </h2>
+            </header>
+            <div class = "w3-container">
+                <p><a href = "/daytime" class= "w3-button w3-block w3-amber">Daytime Light</a></p>
+                <p><a href = "/nightime" class = "w3-button w3-block w3-deep-purple">Night Light</a></p>
+                <p><a href = "/rainbow" class = "w3-button w3-green">Rainbow</a></p>
+                <p><a href = "/off" class= "w3-button w3-block w3-red">Off</a></p>
+            </div>
+            <div class ="w3-panel w3-blue">
+            <p> The lamp is now {{status}} <p>
+            </div>
+        </body>
+</html>
+    
