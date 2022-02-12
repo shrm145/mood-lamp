@@ -8,7 +8,7 @@ This is a personal project for an web-based mood lamp. The hardware for the lamp
 </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="https://github.com/shruti-misra/mood-lamp/tree/master/images/app.PNG">
+        <img class="img-fluid rounded z-depth-1" src="https://github.com/shruti-misra/mood-lamp/blob/master/images/app.PNG">
 </div>
     </div>
 </div>
