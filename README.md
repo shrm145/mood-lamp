@@ -2,8 +2,11 @@
 
 This is a personal project for an web-based mood lamp. The hardware for the lamp is [Adafruit's Pimoroni Mood Light Project Kit](https://www.adafruit.com/product/3478), while the webapp is built using Flask and Open StreetMap 
 
-<img src="https://github.com/shruti-misra/mood-lamp/blob/master/images/lamp.jpeg" width="300" /> <img src="https://github.com/shruti-misra/mood-lamp/blob/master/images/app.PNG" width="300" /> 
-
+<p align="center">
+  <img alt="Light" src="https://github.com/shruti-misra/mood-lamp/blob/master/images/lamp.jpeg" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="https://github.com/shruti-misra/mood-lamp/blob/master/images/app.PNG" width="45%">
+</p>
 
 <hr>
 
