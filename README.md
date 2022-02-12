@@ -1,4 +1,4 @@
-#Moodl lamp project 
+# Mood Lamp project 
 
 This is a personal project for an web-based mood lamp. The hardware for the lamp is [Adafruit's Pimoroni Mood Light Project Kit](https://www.adafruit.com/product/3478), while the webapp is built using Flask and Open StreetMap 
 
